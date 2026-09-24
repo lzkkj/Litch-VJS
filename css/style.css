@@ -4558,8 +4558,23 @@ text-decoration:
 ========================================================= */
 
 .home-community-visual .community-globe {
-    width: 42px;
-    height: 42px;
+    width: 64px;
+    height: 64px;
+
+    display: block;
+
+    fill: none;
+    stroke: #00FFFF;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+    opacity: 1;
+    visibility: visible;
+
+    position: relative;
+    z-index: 10;
+}
 
     display: block;
 
