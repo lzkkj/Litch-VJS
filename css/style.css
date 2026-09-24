@@ -4606,31 +4606,3 @@ text-decoration:
     transform:
         translateY(-4px);
 }
-
-.home-community-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 88px;
-    height: 88px;
-    border-radius: 50%;
-    background: rgba(101, 200, 255, 0.08);
-    border: 1px solid rgba(101, 200, 255, 0.25);
-    box-shadow: 0 0 30px rgba(101, 200, 255, 0.08);
-}
-
-.home-community-icon svg {
-    width: 48px;
-    height: 48px;
-    stroke: #65c8ff;
-    stroke-width: 1.6;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    fill: none;
-    transition: transform 0.35s ease, stroke 0.35s ease;
-}
-
-.home-explore-card:hover .home-community-icon svg {
-    transform: rotate(10deg) scale(1.08);
-    stroke: #8bd8ff;
-}
