@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <link
+        rel="stylesheet"
+        href="../css/style.css"
+    >
+    <link rel="stylesheet" href="../css/experience.css">
+
+   <link rel="icon" type="image/png" href="../images/favicon.ico">
+
+    <title>Litch — Help-Me!</title>
+
+</head>
+
+
+<body data-page="help" class="help-page">
+
+    <header>
+
+        <div class="header__brand">
+
+            <img
+                src="https://raw.githubusercontent.com/lzkkj/Litch_Vers-oFinal/backup-litch-vjs-java/images/LitchLogo.png"
+                alt="Litch logo"
+            >
+
+            <h1 class="title">
+                Litch
+            </h1>
+
+        </div>
+
+
+        <nav class="litch-nav">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="game-store.html">
+                Game Store
+            </a>
+
+            <a href="litch+.html">
+                Litch+
+            </a>
+
+            <a href="community.html">
+                Community
+            </a>
+            
+            <a href="about.html">
+                About
+            </a>
+
+            <a href="partners.html">
+                Partners
+            </a>
+
+            <a
+                href="help-me.html"
+                class="is-active"
+            >
+                Help-Me!
+            </a>
+        </nav>
+
+    
+    <button class="litch-search-btn" aria-label="Pesquisar jogos">
+        <svg viewBox="0 0 24 24">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="M16.5 16.5L21 21"></path>
+        </svg>
+    </button>
+</header>
+
+
+    <hr>
+
+
+    <main class="help-main">
+
+        <section class="help-hero">
+
+            <span class="help-hero__eyebrow">
+                LITCH SUPPORT
+            </span>
+
+            <h2>
+                Como podemos ajudar?
+            </h2>
+
+            <p>
+                Pergunte à Litch AI sobre jogos, preços,
+                Litch+, planos e recursos da plataforma.
+            </p>
+
+        </section>
+
+
+        <!-- AI AREA -->
+
+        <section class="litch-ai">
+
+            <div class="litch-ai__header">
+
+                <div class="litch-ai__icon">
+                    ✦
+                </div>
+
+                <div>
+
+                    <h3>
+                        Litch AI
+                    </h3>
+
+                    <span>
+                        Online • Pronta para ajudar
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div
+                class="litch-ai__messages"
+                id="aiMessages"
+            >
+
+                <div class="ai-message ai-message--bot">
+
+                    <div class="ai-message__avatar">
+                        L
+                    </div>
+
+                    <div class="ai-message__content">
+
+                        <strong>
+                            Litch AI
+                        </strong>
+
+                        <p>
+                            Olá! Eu sou a Litch AI. Como posso ajudar você hoje?
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Suggested Questions -->
+
+            <div class="litch-ai__suggestions">
+
+                <button>
+                    Como funciona o Litch+?
+                </button>
+
+                <button>
+                    Quanto custa Crimson Desert?
+                </button>
+
+                <button>
+                    Quais jogos online estão disponíveis?
+                </button>
+
+                <button>
+                    Quais descontos estão disponíveis?
+                </button>
+
+            </div>
+
+
+            <!-- Input -->
+
+            <div class="litch-ai__input">
+
+                <input
+                    type="text"
+                    id="aiInput"
+                    placeholder="Pergunte algo à Litch AI..."
+                >
+
+                <button
+                    id="aiSend"
+                    aria-label="Enviar mensagem"
+                >
+                    ➤
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- FAQ -->
+
+        <section class="help-faq">
+
+            <h2>
+                Frequently Asked Questions
+            </h2>
+
+
+            <div class="help-faq__grid">
+
+                <article>
+                    <h3>
+                        O que é a Litch?
+                    </h3>
+
+                    <p>
+                        A Litch é uma plataforma de jogos criada
+                        para tornar simples e agradável descobrir
+                        e acessar novos títulos.
+                    </p>
+                </article>
+
+
+                <article>
+                    <h3>
+                        O que é o Litch+?
+                    </h3>
+
+                    <p>
+                        O Litch+ é a experiência premium da
+                        plataforma, com streaming e benefícios
+                        adicionais em diferentes planos.
+                    </p>
+                </article>
+
+
+                <article>
+                    <h3>
+                        Como posso comprar um jogo?
+                    </h3>
+
+                    <p>
+                        Navegue pela Game Store, escolha um jogo
+                        e consulte a oferta exibida no respectivo
+                        card.
+                    </p>
+                </article>
+
+
+                <article>
+                    <h3>
+                        Posso jogar online?
+                    </h3>
+
+                    <p>
+                        Sim. Visite a seção Online Games para
+                        conhecer títulos multiplayer e online.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="litch-footer">
+
+        <p>
+            © 2026 Litch. All rights reserved.
+        </p>
+
+        <p>
+            Developed by
+            <strong>
+                Gustavo de Toledo Gomes & Lucas Baldan
+            </strong>
+        </p>
+
+    
+    <a class="litch-footer__partners" href="partners.html">
+        Partners: VYRA — Julio Milheiro &amp; Bruno Barbosa
+    </a>
+</footer>
+
+    <script src="../js/chatbot.js"></script>
+
+<script src="../js/experience.js" defer></script>
+</body>
+
+</html>
