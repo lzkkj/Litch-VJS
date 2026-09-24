@@ -4557,69 +4557,21 @@ text-decoration:
    COMMUNITY FINAL
 ========================================================= */
 
-.community-final {
-    width: min(1000px, 90%);
+.home-community-visual .community-globe {
+    width: 42px;
+    height: 42px;
 
-    margin:
-        120px auto;
-
-    padding:
-        100px
-        30px;
-
-    text-align: center;
-
-    border-top:
-        1px solid
-        rgba(255, 255, 255, 0.07);
-}
-
-
-.community-final a {
-    display: inline-block;
-
-    margin-top: 30px;
-
-    padding:
-        14px
-        24px;
-
-    color: #ffffff;
-
-    text-decoration: none;
-
-    border-radius: 8px;
-
-    background:
-        linear-gradient(
-            90deg,
-            #6258ff,
-            #418edb
-        );
-
-    transition:
-        transform 0.3s ease;
-}
-
-
-.community-final a:hover {
-    transform:
-        translateY(-4px);
-}
-
-.community-globe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.community-globe svg {
-    width: 28px;
-    height: 28px;
+    display: block;
 
     fill: none;
-    stroke: white;
-    stroke-width: 1.8;
+    stroke: #ffffff;
+    stroke-width: 1.7;
     stroke-linecap: round;
     stroke-linejoin: round;
+
+    opacity: 1;
+    visibility: visible;
+
+    position: relative;
+    z-index: 10;
 }
