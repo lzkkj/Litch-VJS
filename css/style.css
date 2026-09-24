@@ -4606,3 +4606,20 @@ text-decoration:
     transform:
         translateY(-4px);
 }
+
+.community-globe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.community-globe svg {
+    width: 28px;
+    height: 28px;
+
+    fill: none;
+    stroke: white;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
